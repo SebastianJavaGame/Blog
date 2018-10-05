@@ -1,0 +1,111 @@
+<!DOCTYPE HTML>
+<html class="" lang="pl-PL">
+<head>
+	<meta charset="UTF-8">
+	<link rel="icon" type="image/ico" href="../images/logo.png" />
+	<title>Temat - Inwestowanie</title>
+	
+	<style type="text/css">
+		* {
+			margin: 0;
+			padding: 0;
+		}
+		body {
+			background-image: url(../images/background.png);
+			background-position: fixed;
+		}
+		#main_menu{
+			background-color: black;
+			color: white;
+		}
+		#name_menu{
+			font-size:40px;
+			float:left;
+			width:65%;
+			text-align:center;
+			margin-top: 5px;
+			font-family: Monospace;
+			margin-left: -15%;
+		}
+		#category_menu{
+			width:50%
+			float:left;
+		}
+		.element_menu{
+			display: block;
+			float:left;
+			font-size:28px;
+			margin: 10px 25px 10px 25px;
+		}
+		a:link, a:visited {
+			color: white; 
+			text-decoration: none;
+		}
+		a:hover, a:active {
+			color: #7daaca;
+		}
+		#donate{
+			color:#39b54a;
+		}
+		#donate:hover, #donate:active {
+			text-decoration:underline;
+			font-weight: bold;
+		}
+		#header{
+			position: fixed;
+			top: 0.3%;
+			left: 35%;
+			width:200px;
+		}
+		#news{
+			width:80%;
+			display:block;
+			margin: 8% auto;
+		}
+		.article{
+			float:left;
+			display:block;
+			border: 1px solid gray;
+			width:25%;
+			height:350px;
+		}
+	</style>
+</head>
+<body>
+	<div id="main_menu">
+		<div id="name_menu">Sebastian Ściślak</div>
+		<div id="category_menu">
+			<div class="element_menu"><a style="color: #7daaca;" href="index.html">Blog</a></div>
+			<div class="element_menu"><a href="#">Portfolio</a></div>
+			<div class="element_menu"><a href="#">O mnie</a></div>
+			<div class="element_menu"><a href="#">Kontakt</a></div>
+			<div class="element_menu"><a id="donate" href="#">Donate</a></div>
+		</div>
+		<div style="clear:both"></div>
+	</div>
+	<div id="header">
+		<img style="width:25%; height:25%; float:left;" src="../images/investing.png">
+		<p style="font-size:20px; float:left; color:white;margin-left:5px;margin-top:12px;">Inwestowanie</p>
+	</div>
+	<div id="news">
+		<div class="article" style="margin-right:10%">
+			<img>
+			<p class="short_info"></p>
+			<div class="separate_line"></div>
+			<p class="date"></p>
+		</div>
+		<div class="article" style="margin-right:10%">
+			<img>
+			<p class="short_info"></p>
+			<div class="separate_line"></div>
+			<p class="date"></p>
+		</div>
+		<div class="article">
+			<img>
+			<p class="short_info"></p>
+			<div class="separate_line"></div>
+			<p class="date"></p>
+		</div>
+	</div>
+</body>
+</html>
