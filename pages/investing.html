@@ -37,17 +37,14 @@
 			font-size:28px;
 			margin: 10px 25px 10px 25px;
 		}
-		a:link, a:visited {
+		#main_menu a:link, #main_menu a:visited {
 			color: white; 
 			text-decoration: none;
 		}
-		a:hover, a:active {
+		#main_menu a:hover, #main_menu a:active {
 			color: #7daaca;
 		}
-		#donate{
-			color:#39b54a;
-		}
-		#donate:hover, #donate:active {
+		.element_menu #donate:hover, .element_menu #donate:active {
 			text-decoration:underline;
 			font-weight: bold;
 		}
@@ -79,7 +76,7 @@
 			<div class="element_menu"><a href="#">Portfolio</a></div>
 			<div class="element_menu"><a href="#">O mnie</a></div>
 			<div class="element_menu"><a href="#">Kontakt</a></div>
-			<div class="element_menu"><a id="donate" href="#">Donate</a></div>
+			<div class="element_menu"><a id="donate" href="#" style="color:#39b54a;">Donate</a></div>
 		</div>
 		<div style="clear:both"></div>
 	</div>
@@ -87,24 +84,25 @@
 		<img style="width:25%; height:25%; float:left;" src="../images/investing.png">
 		<p style="font-size:20px; float:left; color:white;margin-left:5px;margin-top:12px;">Inwestowanie</p>
 	</div>
+	
 	<div id="news">
 		<div class="article" style="margin-right:10%">
-			<img>
+			<img class="img_news">
 			<p class="short_info"></p>
 			<div class="separate_line"></div>
-			<p class="date"></p>
+			<p class="date">08-10-2018</p>
 		</div>
 		<div class="article" style="margin-right:10%">
-			<img>
+			<img class="img_news">
 			<p class="short_info"></p>
 			<div class="separate_line"></div>
-			<p class="date"></p>
+			<p class="date">08-10-2018</p>
 		</div>
 		<div class="article">
-			<img>
+			<img class="img_news">
 			<p class="short_info"></p>
 			<div class="separate_line"></div>
-			<p class="date"></p>
+			<p class="date">08-10-2018</p>
 		</div>
 	</div>
 </body>
