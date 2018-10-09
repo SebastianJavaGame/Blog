@@ -57,29 +57,32 @@
 		#news{
 			width:80%;
 			display:block;
-			margin: 8% auto;
+			margin: 7% auto;
 		}
 		.article{
 			float:left;
 			display:block;
-			border: 1px solid gray;
 			width:25%;
-			height:350px;
+			height:400px;
 		}
 		.img_news{
 			width:250px;
 			height:180px;
 			display: block;
 			margin: 5px auto;
+			margin-bottom: 12px;
+			border-bottom: 1px solid black;
+			border-top: 1px solid black;
 		}
 		.short_info{
 			text-align: justify;
 			height: 40%;
-			border: 1px solid red;
+			font-size:19px;
 		}
 		.date{
 			display:block;
 			text-align:center;
+			font-weight: bold;
 		}
 		.separate_line{
 			width:60%;
@@ -87,6 +90,14 @@
 			margin: 0 auto;
 			height:1px;
 			background-color:black;
+		}
+		#news a:visited, #news a:link{
+			color:black;
+		}
+		.title{
+			text-align:center;
+			margin-bottom: 15px;
+			color: #388cca;
 		}
 	</style>
 </head>
@@ -108,12 +119,13 @@
 	</div>
 	
 	<div id="news">
-		<div class="article" style="margin-right:10%">
-			<img class="img_news">
-			<p class="short_info">Ala ma kota który uporczywie siedzi na płocie gapiąć sięw okno sąsiadki ijącej pyszną relaksującą i orzeźwiającą herbatkę ze świeżych ziół leczniczych</p>
+		<a href="news_programming/programming_00.html"><div class="article" style="margin-right:10%">
+			<h2 class="title">Jak zacząć programować?</h2>
+			<img class="img_news" src="../images/news_programming/programming_00.jpeg">
+			<p class="short_info">Artykuł poświęcony jest dla osób rozpoczynających swoją przygodę z programowaniem i nie tylko. O wyznaczaniu celów i osiąganiu ich.</p>
 			<div class="separate_line"></div>
 			<p class="date">08-10-2018</p>
-		</div>
+		</div></a>
 		<div class="article" style="margin-right:10%">
 			<img class="img_news">
 			<p class="short_info"></p>
