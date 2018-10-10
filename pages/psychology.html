@@ -57,17 +57,50 @@
 		#news{
 			width:80%;
 			display:block;
-			margin: 8% auto;
+			margin: 4% auto;
+			border-top: 1px solid black;
+			padding-top: 20px;
 		}
 		.article{
 			float:left;
 			display:block;
-			border: 1px solid gray;
 			width:25%;
-			height:350px;
+			height:400px;
+		}
+		.img_news{
+			width:250px;
+			height:180px;
+			display: block;
+			margin: 5px auto;
+			margin-bottom: 12px;
+			border-bottom: 1px solid black;
+			border-top: 1px solid black;
+		}
+		.short_info{
+			text-align: center;
+			height: 40%;
+			font-size:19px;
+			letter-spacing: 1.2px;
+		}
+		.date{
+			display:block;
+			text-align:center;
+			font-weight: bold;
+		}
+		.separate_line{
+			width:60%;
+			display:block;
+			margin: 0 auto;
+			height:1px;
+			background-color:black;
 		}
 		#news a:visited, #news a:link{
 			color:black;
+		}
+		.title{
+			text-align:center;
+			margin-bottom: 15px;
+			color: #388cca;
 		}
 	</style>
 </head>
@@ -89,18 +122,21 @@
 	</div>
 	
 	<div id="news">
-		<a href="#"><div class="article" style="margin-right:10%">
-			<img class="img_news">
-			<p class="short_info"></p>
+		<a href="news_psychology/psychology_00.html"><div class="article" style="margin-right:10%">
+			<h2 class="title">Siła afirmacji</h2>
+			<img class="img_news" src="../images/news_psychology/psychology_00.jpeg">
+			<p class="short_info">Artykuł poświęcony afirmacji. Co to jest i do czego służy? Jak codzienne wykonywanie jej wpływa na nasze zachowanie, myślenie, działanie i życie.</p>
 			<div class="separate_line"></div>
-			<p class="date">08-10-2018</p>
+			<p class="date">10-10-2018</p>
 		</div></a>
-		<div class="article" style="margin-right:10%">
-			<img class="img_news">
-			<p class="short_info"></p>
+		<a href="news_psychology/psychology_01.html"><div class="article" style="margin-right:10%">
+			<h2 class="title">Wyznaczanie celu. Jak stworzyć plan?</h2>
+			<img class="img_news" src="../images/news_psychology/psychology_01.jpeg">
+			<p class="short_info">Wpis przedstawia jak stworzyć mądry plan, który napisany zgodnie
+			ze wskazówkami zaprowadzi cię prosto do osiągnięcia nawet największych celów i marzeń.</p>
 			<div class="separate_line"></div>
-			<p class="date">08-10-2018</p>
-		</div>
+			<p class="date">10-10-2018</p>
+		</div></a>
 		<div class="article">
 			<img class="img_news">
 			<p class="short_info"></p>
@@ -108,5 +144,6 @@
 			<p class="date">08-10-2018</p>
 		</div>
 	</div>
+	
 </body>
 </html>
