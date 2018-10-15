@@ -3,7 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<link rel="icon" type="image/ico" href="../images/logo.png" />
-	<title>Temat - Książki</title>
+	<title>Temat - Programowanie</title>
 	
 	<style type="text/css">
 		* {
@@ -54,53 +54,44 @@
 			left: 35%;
 			width:200px;
 		}
-		#news{
-			width:80%;
-			display:block;
-			margin: 4% auto;
-			border-top: 1px solid black;
-			padding-top: 20px;
+		#header p{
+			font-size:20px; 
+			float:left; 
+			color:white;
+			margin-left:5px;
+			margin-top:12px;
 		}
-		.article{
+		#header:hover{
+			background-color: #7daaca;
+		}
+		#article{
+			width: 60%;
+			margin:50px auto;
+		}
+		#article img{
+			display:block;
 			float:left;
+			width: 40%;
+		}
+		#article_header{
+			border: 1px solid gray;
+		}
+		#centred {
 			display:block;
-			width:25%;
-			height:400px;
-		}
-		.img_news{
-			width:250px;
-			height:180px;
-			display: block;
-			margin: 5px auto;
-			margin-bottom: 12px;
-			border-bottom: 1px solid black;
-			border-top: 1px solid black;
-		}
-		.short_info{
-			text-align: center;
-			height: 40%;
-			font-size:19px;
-			letter-spacing: 1.2px;
-		}
-		.date{
-			display:block;
-			text-align:center;
-			font-weight: bold;
-		}
-		.separate_line{
+			float:left;
 			width:60%;
-			display:block;
-			margin: 0 auto;
-			height:1px;
-			background-color:black;
-		}
-		#news a:visited, #news a:link{
-			color:black;
-		}
-		.title{
 			text-align:center;
-			margin-bottom: 15px;
+			height: 100%;
+		}
+		#centred h1{
+			font-size:35px;
+			margin-top:17%;
 			color: #388cca;
+		}
+		#info{
+			margin-top: 30px;
+			text-align: justify;
+			font-size: 22px;
 		}
 	</style>
 </head>
@@ -108,7 +99,7 @@
 	<div id="main_menu">
 		<div id="name_menu">Sebastian Ściślak</div>
 		<div id="category_menu">
-			<div class="element_menu"><a style="color: #7daaca;" href="index.html">Blog</a></div>
+			<div class="element_menu"><a style="color: #7daaca;" href="../index.html">Blog</a></div>
 			<div class="element_menu"><a href="#">Portfolio</a></div>
 			<div class="element_menu"><a href="#">O mnie</a></div>
 			<div class="element_menu"><a href="#">Kontakt</a></div>
@@ -116,14 +107,20 @@
 		</div>
 		<div style="clear:both"></div>
 	</div>
-	<div id="header">
-		<img style="width:25%; height:25%; float:left;" src="../images/book.png">
-		<p style="font-size:20px; float:left; color:white;margin-left:5px;margin-top:12px;">Książki</p>
-	</div>
+	<a href="../programming.html"><div id="header">
+		<img style="width:25%; height:25%; float:left;" src="../../images/programming.png">
+		<p>Programowanie</p>
+	</div></a>
 	
-	<div id="news">
-		<div>
-			<h1>Książki o programowaniu</h1>
+	<div id="article">
+		<div id="article_header">
+			<img src="../../images/news_programming/programming_00.jpeg">
+			<div id="centred"><h1>Jak zacząć programować?</h1></div>
+			<div style="clear:both;"></div>
+		</div>
+		<div style="clear:both"></div>
+		<div id="info">
+			<p>&emsp;&emsp;&emsp; <- tabulacja.Tu piszemy przykładowy text artykułu</p>
 		</div>
 	</div>
 	
