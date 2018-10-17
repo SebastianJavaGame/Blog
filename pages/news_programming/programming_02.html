@@ -3,7 +3,8 @@
 <head>
 	<meta charset="UTF-8">
 	<link rel="icon" type="image/ico" href="../images/logo.png" />
-	<title>Temat - Programowanie</title>
+	<link href="https://fonts.googleapis.com/css?family=Nunito:300i" rel="stylesheet">
+	<title>Temat - Praktyka czyni mistrza</title>
 	
 	<style type="text/css">
 		* {
@@ -11,7 +12,7 @@
 			padding: 0;
 		}
 		body {
-			background-image: url(../images/background.png);
+			background-image: url(../../images/background.png);
 			background-position: fixed;
 		}
 		#main_menu{
@@ -53,6 +54,7 @@
 			top: 0.3%;
 			left: 35%;
 			width:200px;
+			background-color:black;
 		}
 		#header p{
 			font-size:20px; 
@@ -67,6 +69,8 @@
 		#article{
 			width: 60%;
 			margin:50px auto;
+			font-family: 'Nunito', sans-serif;
+			letter-spacing: 1.4px;
 		}
 		#article img{
 			display:block;
@@ -75,6 +79,12 @@
 		}
 		#article_header{
 			border: 1px solid gray;
+		}
+		#next_article{
+			border: 1px solid gray;
+		}
+		#next_article:hover{
+			border: 2px solid #7daaca;
 		}
 		#centred {
 			display:block;
@@ -85,13 +95,21 @@
 		}
 		#centred h1{
 			font-size:35px;
-			margin-top:17%;
+			margin-top:19%;
 			color: #388cca;
 		}
 		#info{
-			margin-top: 30px;
 			text-align: justify;
 			font-size: 22px;
+		}
+		#article h3{
+			margin-top: 30px;
+			margin-bottom: 15px;
+			margin-left:50px;
+		}
+		#article p{
+			margin: 10px;
+			margin-bottom: 20px;
 		}
 	</style>
 </head>
@@ -114,13 +132,50 @@
 	
 	<div id="article">
 		<div id="article_header">
-			<img src="../../images/news_programming/programming_00.jpeg">
-			<div id="centred"><h1>Jak zacząć programować?</h1></div>
+			<img height="240px" src="../../images/news_programming/programming_02.jpg">
+			<div id="centred"><h1>Praktyka czyni mistrza</h1></div>
 			<div style="clear:both;"></div>
 		</div>
 		<div style="clear:both"></div>
 		<div id="info">
-			<p>&emsp;&emsp;&emsp; <- tabulacja.Tu piszemy przykładowy text artykułu</p>
+			<h3>Jak to wygląda?</h3>
+			<p>Będą to strony internetowe z różnymi zadaniami i w róźnych stopniach trudności nauczą cię stosować algorytmicznego podejścia.
+			Dzięki takim zadaniom już będziesz mógł mieć doczynienia z praktyznym programowaniem, może czasem dość prostym i nie wymagającym wielkiego zaangażowania.</p>
+			<h3>Checkio</h3>
+			<p>Platforma przeznaczona dla programistów Javascript oraz Python. Możecie tam znaeźć ciekawe zadania o tematyce gier.<a href="https://checkio.org/"> Klik</a></p>
+			<h3>Sphere online judge</h3>
+			<p>Kolejna platforma do ćwiczenia kodowania. Nie występuje tu konkretna specjalizacja. Ogromną zaletą jest tu możliwość poównania pracy z innymi.
+			Cecha ta z pewnością jest dużym atutem a dla nas oznacza edukację poprzez wgląd do kodu innych. Dzięki temu obcy kod z większą łatwością stanie się dlanas czytelny a przy oazji od najlepszych rozwiązań nauczymy się pisać elegancki
+			i praktyczny kod.<a href="https://www.spoj.com/"> Klik</a></p>
+			<h3>Rosalind</h3>
+			<p>Znajdziemy tu zbiór zadań od prostych po trudniejsze. Motywacją jest przechodzenie ich w kolejności bez pomijania żadnego.<a href="http://rosalind.info/problems/locations/"> Klik</a></p>
+			<h3>CodeAbbey</h3>
+			<p>Duża ilość zadań od najprostszych po te bardziej wymagające. Ta strona z pewnością wesprze twoją praktyczną edukację już od początku ścieżki programisty.<a href=http://www.codeabbey.com/index/task_list"> Klik</a></p>
+			<h3>HakerRank</h3>
+			<p>Strona pozwala wybrać kategorie zainteresować aby to fajniej i przyjemniej dostosować problemy i zadania do rozwiązania zgodnie
+			z naszymi preferencjami. Zajrzyj tu a przekonasz się, że było wrto.<a href="https://www.hackerrank.com/"> Klik</a></p>
+			<h3>HackerEarth</h3>
+			<p>Jest to bardzo ciekawa strona ponieważ zadania tu umieszczane mogą zapewnić wam nagrodę i warto jest o nie powalczyć, lecz także znajdują się tu zadania dla początkujących w branży.
+			<a href="https://www.hackerearth.com/challenges/"> Klik</a></p>
+			<h3>CodingGame</h3>
+			<p>Jedna z najbardziej popularnych stron tego typu. Pisane rozwiązania pokazują grę, wktórej jest jakiś błąd, który musimy rozwiązać. Musisz koniecznie tu zajrzeć. Zadania te z pewnością
+			cię zainteresują i zatrzymają na dłużej.<a href="https://www.codingame.com/start"> Klik</a></p>
+			<h3>CodeWars</h3>
+			<p>Kolejna platforma zapewniająca nam programistyczne zadania. Wyróżnia ją TDD, którego możemy się lepiej nauczyć. TDD jest są to testy jednostkowe tak w skrócie.<a href="http://www.codewars.com/"> Klik</a></p>
+			<h3>TopCoder</h3>
+			<p>Wyzwania, dzięki którym możesz zarobić. Znajdziesz tu wyzwania dzienne i tygodniowe.Sprawdzisz tu swoje logiczne myślenie i rozwiązywanie problemów. <a href="https://www.topcoder.com/">Klik</a></p>
+			<h3>CodeByte</h3>
+			<p>Wyzwania programistyczne o róźnym poziomie trudności. Aby sprawdzić rozwiązania muszisz się najpierw zalogować. <a href="http://coderbyte.com/CodingArea/Challenges/">Klik</a></p>
+			<h3>CodingBat</h3>
+			<p>Znajdziesz tu tylko zadania dotyczące jęzków Java i Python. <a href="http://codingbat.com/">Klik</a></p>
+			<h3>CodeChief</h3>
+			<p>Znajdziesz tu wiele wyzwań i konkursów. Urzytkownicy portalu pomagają współtworzyć treść. <a href="https://www.codechef.com/problems/school">Klik</a></p>
+			<h3>CodeFight</h3>
+			<p>Na tej platformie dodatkowo <a href="https://codefights.com/home">Klik</a></p>
+			<h3>Codility</h3>
+			<p>Poza zadaniami znajdziecie tu co miesięczne wyzwania programistyczne. <a href="https://codility.com/">Klik</a></p>
+			<h3>Project Euler</h3>
+			<p>Wyzwania matematyczne i programistyczne. Trudność zadań rośnie z każdym kolejnym. Możecie sprawdzić ich porawność. Rozwiązania często możecie znaleźć na githubie.<a href="https://projecteuler.net/">Klik</a></p>
 		</div>
 	</div>
 	

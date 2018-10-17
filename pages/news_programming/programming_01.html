@@ -3,7 +3,8 @@
 <head>
 	<meta charset="UTF-8">
 	<link rel="icon" type="image/ico" href="../images/logo.png" />
-	<title>Temat - Programowanie</title>
+	<link href="https://fonts.googleapis.com/css?family=Nunito:300i" rel="stylesheet">
+	<title>Temat - Języki programowania</title>
 	
 	<style type="text/css">
 		* {
@@ -11,7 +12,7 @@
 			padding: 0;
 		}
 		body {
-			background-image: url(../images/background.png);
+			background-image: url(../../images/background.png);
 			background-position: fixed;
 		}
 		#main_menu{
@@ -53,6 +54,7 @@
 			top: 0.3%;
 			left: 35%;
 			width:200px;
+			background-color:black;
 		}
 		#header p{
 			font-size:20px; 
@@ -67,6 +69,8 @@
 		#article{
 			width: 60%;
 			margin:50px auto;
+			font-family: 'Nunito', sans-serif;
+			letter-spacing: 1.4px;
 		}
 		#article img{
 			display:block;
@@ -75,6 +79,12 @@
 		}
 		#article_header{
 			border: 1px solid gray;
+		}
+		#next_article{
+			border: 1px solid gray;
+		}
+		#next_article:hover{
+			border: 2px solid #7daaca;
 		}
 		#centred {
 			display:block;
@@ -85,13 +95,21 @@
 		}
 		#centred h1{
 			font-size:35px;
-			margin-top:17%;
+			margin-top:19%;
 			color: #388cca;
 		}
 		#info{
-			margin-top: 30px;
 			text-align: justify;
 			font-size: 22px;
+		}
+		#article h3{
+			margin-top: 30px;
+			margin-bottom: 15px;
+			margin-left:50px;
+		}
+		#article p{
+			margin: 10px;
+			margin-bottom: 20px;
 		}
 	</style>
 </head>
@@ -114,14 +132,42 @@
 	
 	<div id="article">
 		<div id="article_header">
-			<img src="../../images/news_programming/programming_00.jpeg">
-			<div id="centred"><h1>Jak zacząć programować?</h1></div>
+			<img src="../../images/news_programming/programming_01.jpeg">
+			<div id="centred"><h1>Języki programowania</h1></div>
 			<div style="clear:both;"></div>
 		</div>
 		<div style="clear:both"></div>
 		<div id="info">
-			<p>&emsp;&emsp;&emsp; <- tabulacja.Tu piszemy przykładowy text artykułu</p>
+			<h3>Java</h3>
+			<p>Jest to najpopularniejszy język programowania, możmy dzięki niemu stworzyć aplikacje desktopowe, serwisy inernetowe, alpikacje na androida. Charakterycuje obiektowośc,
+			przenośność na różne platformy, dziedziczenie, niezależność od architektury, sieciowośc i obsługa programowania rozproszonego, niezawodność
+			i bezpieczeństwo. Najlpopularniejszy framework javy to Spring.</p>
+			<h3>Javascript</h3>
+			<p>Jest to język stosowany na stronach internetowych po stronie front-endu. Odpowiada on tam za logikę strony internetowej i pozwala na interakcje z użytkownikiem.
+			Najpopularniejsza biblioteka javascriptu to JQuery. </p>
+			<h3>PHP</h3>
+			<p>Czyli interpretowany skryptowy język programowania zaprojektowany do generowania stron internetowych i budowania aplikacji webowych. Mówiąć prościej używa się go po stronie back-endu,
+			gdzie odpowiada za logikę aplikacji po stronie serwera, są w nim napisane całe mechanizmy zaawansowanych stron internetowych lub też inaczej mówiąc serwisów. Stale się rozwija.</p>
+			<h3>SQL</h3>
+			<p>Język ten pozwala nam tworzyć, komunikować się i wykonywać wszelkie operacje na bazach danych. Wykorzustują go inne języki np. java aby komunikować się z bazą danych i pobierać do
+			tworzonej aplikacji dane oraz je tam zapisywać. Jest cała rodzina języków sql np. MySQL, HSQL, SQLite, PostgreSQL.</p>
+			<h3>C#</h3>
+			<p>Charakteryzuje się tym, że jest podobieństwem języka Java. Stworzony przez firmę Microsoft. Ma te same cechy co Java.
+			Najpopularniejszy framework to .Net. Nieustannie się rozwija. Jest często stosowany do produkcji gier np na platformie Unity.</p>
+			<h3>C++</h3>
+			<p>Język programowania ogólnego przeznaczenia, stosowany bardzo często do produkcji gier. Jest następcą języka C i poprzednikiem języka C#.
+			Nie jest językiem zupełnie obiektowym ale pozwala tworzyć obiektowość, wykorzystuje programowanie proceduralne.</p>
+			<h3>Python</h3>
+			<p>Wysoko poziomowy język programowania ogólnego przeznaczenia. Cechuje go przejrzystośc i zwięzłość. Jest sugerowany dla początkujących. Python rozwija się jako Open Source.</p>
+			<h3>Kolejny arykuł: Praktyka czyni mistrza</h3>
+			<p>O kilku stronach, na które warto zajrzeń. Będą to strony z praktycznymi zadaniami, małe zadania wymagające rozwiązania po przez stworznie jakiegoś własnego algorytmu.
+			Stopnie trudności będą róźne, tak więc będzie to dla każdego.</p>
 		</div>
+		<a href="programming_02.html"><div id="next_article">
+			<img width="" height="250px" src="../../images/news_programming/programming_02.jpg">
+			<div id="centred" style="margin-top:10px;"><h1>Praktyka czyni mistrza</h1></div>
+			<div style="clear:both;"></div>
+		</div></a>
 	</div>
 	
 </body>
