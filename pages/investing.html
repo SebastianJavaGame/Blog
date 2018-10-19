@@ -49,7 +49,7 @@
 			font-weight: bold;
 		}
 		#header{
-			position: fixed;
+			position: absolute;
 			top: 0.3%;
 			left: 35%;
 			width:200px;
@@ -57,17 +57,50 @@
 		#news{
 			width:80%;
 			display:block;
-			margin: 8% auto;
+			margin: 4% auto;
+			border-top: 1px solid black;
+			padding-top: 20px;
 		}
 		.article{
 			float:left;
 			display:block;
-			border: 1px solid gray;
 			width:25%;
-			height:350px;
+			height:400px;
+		}
+		.img_news{
+			width:250px;
+			height:180px;
+			display: block;
+			margin: 5px auto;
+			margin-bottom: 12px;
+			border-bottom: 1px solid black;
+			border-top: 1px solid black;
+		}
+		.short_info{
+			text-align: center;
+			height: 40%;
+			font-size:19px;
+			letter-spacing: 1.2px;
+		}
+		.date{
+			display:block;
+			text-align:center;
+			font-weight: bold;
+		}
+		.separate_line{
+			width:60%;
+			display:block;
+			margin: 0 auto;
+			height:1px;
+			background-color:black;
 		}
 		#news a:visited, #news a:link{
 			color:black;
+		}
+		.title{
+			text-align:center;
+			margin-bottom: 15px;
+			color: #388cca;
 		}
 	</style>
 </head>
@@ -89,24 +122,27 @@
 	</div>
 	
 	<div id="news">
-		<div class="article" style="margin-right:10%">
-			<img class="img_news">
+		<a href="news_investing/investing_00.html"><div class="article" style="margin-right:10%">
+			<h2 class="title">Jak zacząć inwestować?</h2>
+			<img class="img_news" src="../images/news_investing/investing_00.jpeg">
+			<p class="short_info">Wstęp do inwestowania na giełdzie. Skąd czerpać niezbędną wiedzę i jak się rozijać. Odpowiedzi na te pytania poznasz w tym artykule</p>
+			<div class="separate_line"></div>
+			<p class="date">18-10-2018</p>
+		</div></a>
+		<a href="news_investing/investing_01.html"><div class="article" style="margin-right:10%">
+			<h2 class="title"></h2>
+			<img class="img_news" src="../images/news_investing/investing_01.jpeg">
 			<p class="short_info"></p>
 			<div class="separate_line"></div>
-			<p class="date">08-10-2018</p>
+			<p class="date">16-10-2018</p>
 		</div>
-		<div class="article" style="margin-right:10%">
-			<img class="img_news">
+		<a href="news_investing/investing_02.html" ><div class="article">
+			<h2 class="title"></h2>
+			<img class="img_news" src="">
 			<p class="short_info"></p>
 			<div class="separate_line"></div>
-			<p class="date">08-10-2018</p>
-		</div>
-		<div class="article">
-			<img class="img_news">
-			<p class="short_info"></p>
-			<div class="separate_line"></div>
-			<p class="date">08-10-2018</p>
-		</div>
+			<p class="date">17-10-2018</p>
+		</div></a>
 	</div>
 </body>
 </html>

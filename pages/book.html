@@ -49,7 +49,7 @@
 			font-weight: bold;
 		}
 		#header{
-			position: fixed;
+			position: absolute;
 			top: 0.3%;
 			left: 35%;
 			width:200px;
@@ -102,6 +102,20 @@
 			margin-bottom: 15px;
 			color: #388cca;
 		}
+		#table{
+			table-layout:fixed;
+			width:100%;
+			text-align:center;
+		}
+		#table tr:nth-child(even) {
+			font-size:20px;
+		}
+		#table td{
+			border: 1px solid black;
+		}
+		#table tr:nth-child(odd){
+			color: grey;
+		}
 	</style>
 </head>
 <body>
@@ -123,7 +137,91 @@
 	
 	<div id="news">
 		<div>
-			<h1>Książki o programowaniu</h1>
+		<h3>Najlepsze Książki</h3>
+			<table id="table">
+				<tr>
+					<th style="width: 33%; font-size:26px; color:black;">Programowanie</th>
+					<th style="width: 33%; font-size:26px; color:black;">Inwestowanie</th>
+					<th style="width: 33%; font-size:26px; color:black;">Psychologia</th>
+				</tr>
+				<tr>
+					<td>Java. Podstawy. Wydanie X</td>
+					<td>Giełda Papierów Wartościowych dla bystrzaków</td>
+					<td>Podręcznik perswazji. Najskuteczniejsze metody przekonywania innych i świadomej ochrony przed manipulacją</td>
+				</tr>
+				<tr>
+					<td>Autor: Cay S. Horstmann</td>
+					<td>Autor: Tobiasz Maliński</td>
+					<td>Autor: Mateusz Grzesiak</td>
+				</tr>
+				<br>
+				<tr></tr><tr></tr>
+				<tr>
+					<td>Czysty kod. Podręcznik dobrego programisty</td>
+					<td>Analiza techniczna dla bystrzaków</td>
+					<td>Insight. Droga do mentalnej dojrzałości</td>
+				</tr>
+				<tr>
+					<td>Autor: Robert C. Martin</td>
+					<td>Autor: Barbara Rockefeller</td>
+					<td>Autor: Michał Pasterski</td>
+				</tr>
+				<tr></tr><tr></tr>
+				<tr>
+					<td>Język C++. Szkoła programowania</td>
+					<td>Droga Żółwia. Sekretne metody, dzięki którym zwykli ludzie stali się legendarnymi traderami</td>
+					<td>Haker umysłów</td>
+				</tr>
+				<tr>
+					<td>Autor: Stephen Prata</td>
+					<td>Autor: Faith Curtis M.</td>
+					<td>Autor: Andrzej Batko</td>
+				</tr>
+				<tr></tr><tr></tr>
+				<tr>
+					<td>Python dla każdego. Podstawy programowania.</td>
+					<td>Inteligentny inwestor</td>
+					<td>Zasady wywierania wpływu na ludzi. Szkoła Cialdiniego</td>
+				</tr>
+				<tr>
+					<td>Autor: Michael Dawson</td>
+					<td>Autor: Graham Benjamin</td>
+					<td>Autorzy: Robert B. Cialdini (Ph.D.), ilustracje: Andrzej Mleczko</td>
+				</tr>
+				<tr></tr><tr></tr>
+				<tr>
+					<td>C# 7.0 w pigułce. Wydanie VII</td>
+					<td>Wspomnienia gracza giełdowego.</td>
+					<td>Jak tworzyć doskonałe relacje. Zdobądź zaufanie i wpływaj na ludzi</td>
+				</tr>
+				<tr>
+					<td>Autorzy: Joseph Albahari, Ben Albahari</td>
+					<td>Autor: Edwin Lefèvre</td>
+					<td>Autor: Dale Carnegie</td>
+				</tr>
+				<tr></tr><tr></tr>
+				<tr>
+					<td>HTML i CSS. Zaprojektuj i zbuduj witrynę WWW. Podręcznik Front-End Developera</td>
+					<td>Sztuka spekulacji po latach (tom I i II)</td>
+					<td>Jak zdobyć przyjaciół i zjednać sobie ludzi.</td>
+				</tr>
+				<tr>
+					<td>Autor: Jon Duckett</td>
+					<td>Autor: Zenon Komar</td>
+					<td>Autor: Dale Carnegie</td>
+				</tr>
+				<tr></tr><tr></tr>
+				<tr>
+					<td>JavaScript i jQuery. Interaktywne strony WWW dla każdego</td>
+					<td>Jak zarobiłem 2 000 000 $ na giełdzie. Wydanie II</td>
+					<td>Przejmij kontrolę nad swoim życiem. Przewodnik po NLP</td>
+				</tr>
+				<tr>
+					<td>Autor: Jon Duckett</td>
+					<td>Autor:Nicolas Darvas</td>
+					<td>Autorzy: Richard Bandler, Owen Fitzpatrick, Alessio Roberti</td>
+				</tr>
+			</table>
 		</div>
 	</div>
 	
