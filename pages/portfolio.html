@@ -11,9 +11,8 @@
 			padding: 0;
 		}
 		body {
-			background-image: url(../images/main_background.jpg);
+			background-image: url(../images/background.png);
 			background-position: fixed;
-			background-size: 104% 1220%;
 		}
 		#main_menu{
 			background-color: black;
@@ -60,10 +59,9 @@
 			 text-align: right;
 		}
 		#center_menu{
-			position:fixed;
-			top:30%;
-			left:50%;
-			margin-left:-260px;
+			width:60%;
+			margin: 0 auto;
+			margin-top: 100px;
 		}
 		.subject{
 			float:left;
@@ -85,7 +83,22 @@
 			font-size:20px;
 			margin-top: -20px;
 		}
-		
+		.gallery{
+			width:19.6%;
+		}
+		.gallery1{
+			width:33%;
+		}
+		h1{
+			margin: 20px;
+		}
+		h2{
+			margin: 20px;
+		}
+		.project{
+			border: 1px solid gray;
+			margin-bottom:50px;
+		}
 	</style>
 </head>
 
@@ -93,42 +106,60 @@
 	<div id="main_menu">
 		<div id="name_menu">Sebastian Ściślak</div>
 		<div id="category_menu">
-			<div class="element_menu"><a style="color: #7daaca;" href="index.html">Blog</a></div>
-			<div class="element_menu"><a href="portfolio.html">Portfolio</a></div>
+			<div class="element_menu"><a href="index.html">Blog</a></div>
+			<div class="element_menu"><a style="color: #7daaca;" href="portfolio.html">Portfolio</a></div>
 			<div class="element_menu"><a href="contact.html">Kontakt</a></div>
 			<div class="element_menu"><a href="https://github.com/SebastianJavaGame">Github</a></div>
 		</div>
 		<div style="clear:both"></div>
 	</div>
 	<div id="center_menu">
-		<div class="subject">
-			<a class="image" href="programming.html">
-				<img class="image" src="../images/programming.png" alt="Programowanie">
-				<p>Programowanie</p>
-			</a>
+		<h1>Wargon - Gra</h1>
+		<div class="project">
+			<p>Link do sklepu play - <a style="color:black;" href="https://play.google.com/store/apps/details?id=com.mygdx.scislak">https://play.google.com/store/apps/details?id=com.mygdx.scislak</a></p>
+			<h2>Galeria</h2>
+			<div>
+				<img class="gallery" src="../images/portfolio/wargon_00.png">
+				<img class="gallery" src="../images/portfolio/wargon_01.png">
+				<img class="gallery" src="../images/portfolio/wargon_02.png">
+				<img class="gallery" src="../images/portfolio/wargon_03.jpg">
+				<img class="gallery" src="../images/portfolio/wargon_04.png">
+			</div>
+			<h2>Opis:</h2>
+			<p style="letter-spacing:1.2px;">	Jest to moja pierwsza storzona gra, duży projekt, nad którym szacuję że spędziłem trochę ponad 1000godzin. Wszystkie zasoby graficzne pozyskałem darmową drogą z internetu.
+			Cały stworzony kod jest mój i napewno znajdują się tam jakieś bugi, których nie wychwyciłem. Ogólnie rzecz biorąc projekt został skończony i od początku do końca zaprogramowany tak jak planowałem.
+			Jestem jedynym autorem kodu i najtrudniejsze zaprogramowane rzeczy znajdziecie w liście pod spodem.</p>
+			<br>
+			<lo>
+				<li>Wykonanie bez urzycia silnika gier. Używałem biblioteki libgdx na platformie Android Studio</li>
+				<li>Pisane w języku JAVA</li>
+				<li>Algorytm omijania przeszkód</li>
+				<li>Algorytm dialogów</li>
+				<li>Algorytm walki</li>
+				<li>Ekwipunek</li>
+				<li>Instancje bossów</li>
+				<li>I wiele innych mniej ważnych</li>
+			</lo>
 		</div>
-		<div class="subject">
-			<a class="image" href="investing.html">
-				<img class="image" src="../images/investing.png" alt="Investowanie">
-				<p>Inwestowanie</p>
-			</a>
-		</div>
-		<div class="subject">
-			<a class="image" href="psychology.html">
-				<img class="image" src="../images/psychology.png" alt="Psychologia">
-				<p>Psychologia</p>
-			</a>
-		</div>
-		<div class="subject">
-			<a class="image" href="book.html">
-				<img class="image" src="../images/book.png" alt="Książki">
-				<p style="text-align:left;padding-left:25px;">Książki</p>
-			</a>
+		<h1>The runner - Gra</h1>
+		<div class="project">
+			<p>Link do sklepu play - <a style="color:black;" href="https://play.google.com/store/apps/details?id=com.scislak.runner">https://play.google.com/store/apps/details?id=com.scislak.runner</a></p>
+			<h2>Galeria</h2>
+			<div>
+				<img class="gallery1" src="../images/portfolio/runner_00.jpg">
+				<img class="gallery1" src="../images/portfolio/runner_01.png">
+				<img class="gallery1" src="../images/portfolio/runner_02.jpg">
+			</div>
+			<h2>Opis:</h2>
+			<p style="letter-spacing:1.2px;">Ta gra dla odmiany jest malutkim projektem w porównaniu do poprzedniej. Podobnie jak poprzednia zaprojektowana jest tylko na androida chodz tu można uprzeć się i uruchomić ją gdziekolwiek,
+			w końcu jest stworzona na silniku i można ją wydać na różne platformy. Nie musiałem się tu zbytnio trudzić nad wymyślaniem logiki gry czy tworzeniem trudnych algorytmów. Gra wnosi odrobinę czegoś innego od poprzedniej, jest tym:</p>
+			<br>
+			<lo>
+				<li>Gra stworzona na silniku UNITY</li>
+				<li>Zaprogramowana w C#</li>
+				<li>I w sumie nic więcej czym można się pochwalić</li>
+			</lo>
 		</div>
 	</div>
-	<footer>
-		<div>Icons made by <a href="http://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
-		<div>Icons made by <a href="https://www.flaticon.com/authors/prettycons" title="prettycons">prettycons</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
-	</footer>
 </body>
 </html>
